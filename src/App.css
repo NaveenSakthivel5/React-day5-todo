@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: rgb(215, 255, 255);
+}
+
+.App {
+  text-align: center;
+}
+
+.midheading {
+  text-align: left;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 250px; 
+  display: inline-block;
+  vertical-align: top;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-align: left;
+  background-color:aqua
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 400px; 
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: rgb(57, 192, 0);
+  color: #000000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.editbutton,
+.deletebutton {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #27cb2f;
+}
+
+.status-dropdown,
+select {
+  cursor: pointer;
+  width: 70%;
+  padding: 5px;
+}
+
+.completed {
+  color: green;
+}
+
+.not-completed {
+  color: red;
+}
+
+.filter-buttons {
+  margin-top: 10px;
+  text-align: right; 
+}
+
+.select-filter {
+  width: 150px; 
+}
+
